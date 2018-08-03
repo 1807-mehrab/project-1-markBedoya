@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="customStyle.css" rel="stylesheet">
+        <title>home</title>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Employment Reimbursement Service</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a onclick='homePage()'>Home</a></li>
+                <li><a onclick='viewTickets()'>Tickets</a></li>
+                <li><a onclick='viewEmployeeInfo()'>Profile</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://localhost:8084/PROJECT_1/login"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+        <div class="container">
+            
+            <div id="main">
+                <h1>Employee Home Page!</h1>
+                
+                <!-- Heading Row -->
+                <div class="row">
+                  <div class="col-sm-8">
+                    <img class="img-responsive" src="http://placehold.it/900x400" alt="">
+                  </div>
+                  <!-- /.col-lg-8 -->
+                  <div class="col-sm-4">
+                    <h1>Business Tagline</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                    <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
+                  </div>
+                  <!-- /.col-md-4 -->
+                </div>
+                <!-- /.row -->
+
+                <!-- Call to Action Well -->
+                <div class="row">
+                    <br>
+                    <br>
+                    <div class="col-sm-12 bg-info well-lg vertical-align">
+                        <div class="col-sm-9">
+                                  <h2>Its a Call To Action</h2>
+                        </div>
+                        <div class="col-sm-3" >
+                          <a href="#" class="btn btn-lg btn-block btn-success" >Go for It!</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <!-- Content Row -->
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h2 class="card-title">Card One</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn btn-primary">More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.col-md-4 -->
+                  <div class="col-sm-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h2 class="card-title">Card Two</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn btn-primary">More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.col-md-4 -->
+                  <div class="col-sm-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h2 class="card-title">Card Three</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                      </div>
+                      <div class="card-footer">
+                        <a href="#" class="btn btn-primary">More Info</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.col-md-4 -->
+
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- /.row -->
+            </div> <!-- /div main -->
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Receipt:</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div id="putModalImageHere" ></div>
+                      <br>
+                      <br>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+            
+                  
+        </div>
+        
+        
+        <footer class="footer">
+            <p>Employee Reimbursement System by: Mark Bedoya</p>
+        </footer>   
+        
+       
+        
+    <script src="webjars/jquery/1.9.1/jquery.min.js"></script>  
+    <script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <script src="EmployeeJavascript.js"></script> 
+    </body>
+</html>
+
+
